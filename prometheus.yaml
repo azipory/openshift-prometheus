@@ -23,7 +23,8 @@ parameters:
   value: alertmanager:9093
 - description: Router Password (oc set env dc router -n default --list|grep STATS_PASSWORD)
   name: ROUTER_PASSWORD
-  required: true
+  required: truea
+  value: MUbJRkgxBT
 
 objects:
 
