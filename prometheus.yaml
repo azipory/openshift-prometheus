@@ -24,7 +24,7 @@ parameters:
 - description: Router Password (oc set env dc router -n default --list|grep STATS_PASSWORD)
   name: ROUTER_PASSWORD
   required: true
-  value: MUbJRkgxBT
+  value: "${STATS_PASSWORD}"
 
 objects:
 
